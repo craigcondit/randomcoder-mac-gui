@@ -2,22 +2,22 @@
 	                    
   <modelVersion>4.0.0</modelVersion>
   <parent>
+    <groupId>org.randomcoder</groupId>
     <artifactId>randomcoder-base</artifactId>
-    <groupId>com.randomcoder</groupId>
-    <version>7</version>
+    <version>11</version>
   </parent>
-  <groupId>com.randomcoder</groupId>
+  <groupId>org.randomcoder</groupId>
   <artifactId>randomcoder-mac-gui</artifactId>
   <packaging>jar</packaging>
   <name>Randomcoder Mac OS X GUI integration</name>
   <version>1.0.1-SNAPSHOT</version>
   <description>MAC OS X GUI integration</description>
-  <url>http://randomcoder.com/maven/site/randomcoder-mac-gui/</url>
+  <url>http://randomcoder.org/maven/site/randomcoder-mac-gui/</url>
   <inceptionYear>2007</inceptionYear>
   <scm>
-    <connection>scm:svn:http://randomcoder.com/repos/public/randomcoder-mac-gui/trunk</connection>
-    <developerConnection>scm:svn:https://randomcoder.com/repos/public/randomcoder-mac-gui/trunk</developerConnection>
-    <url>http://randomcoder.com/repos/public/randomcoder-mac-gui/trunk</url>
+    <connection>scm:svn:http://randomcoder.org/repos/public/randomcoder-mac-gui/trunk</connection>
+    <developerConnection>scm:svn:https://randomcoder.org/repos/public/randomcoder-mac-gui/trunk</developerConnection>
+    <url>http://randomcoder.org/repos/public/randomcoder-mac-gui/trunk</url>
   </scm>
   <repositories>
     <repository>
@@ -29,7 +29,7 @@
       </snapshots>
       <id>randomcoder-release</id>
       <name>Randomcoder Release</name>
-      <url>http://randomcoder.com/maven/repository/release</url>
+      <url>http://randomcoder.org/maven/repository/release</url>
     </repository>
     <repository>
       <releases>
@@ -40,7 +40,7 @@
       </snapshots>
       <id>randomcoder-snapshot</id>
       <name>Randomcoder Snapshot</name>
-      <url>http://randomcoder.com/maven/repository/snapshot</url>
+      <url>http://randomcoder.org/maven/repository/snapshot</url>
     </repository>
   </repositories>  
   <dependencies>

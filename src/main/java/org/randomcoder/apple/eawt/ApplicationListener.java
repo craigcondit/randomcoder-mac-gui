@@ -1,4 +1,4 @@
-package com.randomcoder.apple.eawt;
+package org.randomcoder.apple.eawt;
 
 import java.util.EventListener;
 

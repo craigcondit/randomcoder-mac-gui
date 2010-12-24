@@ -1,4 +1,4 @@
-package com.randomcoder.apple.eawt.peer;
+package org.randomcoder.apple.eawt.peer;
 
 import com.apple.eawt.*;
 
@@ -32,14 +32,14 @@ import com.apple.eawt.*;
  */
 public class ApplicationListenerWrapper implements ApplicationListener
 {
-	private final com.randomcoder.apple.eawt.ApplicationListener listener;
+	private final org.randomcoder.apple.eawt.ApplicationListener listener;
 	
-	public ApplicationListenerWrapper(com.randomcoder.apple.eawt.ApplicationListener listener)
+	public ApplicationListenerWrapper(org.randomcoder.apple.eawt.ApplicationListener listener)
 	{
 		this.listener = listener;
 	}
 	
-	public com.randomcoder.apple.eawt.ApplicationListener getWrappedListener()
+	public org.randomcoder.apple.eawt.ApplicationListener getWrappedListener()
 	{
 		return listener;
 	}

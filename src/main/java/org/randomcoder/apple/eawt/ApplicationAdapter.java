@@ -1,4 +1,4 @@
-package com.randomcoder.apple.eawt;
+package org.randomcoder.apple.eawt;
 
 /**
  * An abstract adapter class for receiving <code>ApplicationEvent</code>s.

@@ -1,9 +1,9 @@
-package com.randomcoder.apple.eawt;
+package org.randomcoder.apple.eawt;
 
 import java.awt.Point;
 import java.lang.reflect.*;
 
-import com.randomcoder.apple.eawt.peer.ApplicationPeer;
+import org.randomcoder.apple.eawt.peer.ApplicationPeer;
 
 /**
  * Wrapper around Apple's <code>Application</code> class, to allow linking on

@@ -1,6 +1,6 @@
-package com.randomcoder.apple.eawt.peer;
+package org.randomcoder.apple.eawt.peer;
 
-import com.randomcoder.apple.eawt.ApplicationEvent;
+import org.randomcoder.apple.eawt.ApplicationEvent;
 
 /**
  * Wrapper around <code>ApplicationEvent</code>.

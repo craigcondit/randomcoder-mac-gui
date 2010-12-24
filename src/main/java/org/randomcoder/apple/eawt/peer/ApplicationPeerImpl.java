@@ -1,9 +1,9 @@
-package com.randomcoder.apple.eawt.peer;
+package org.randomcoder.apple.eawt.peer;
 
 import java.util.*;
 
 import com.apple.eawt.Application;
-import com.randomcoder.apple.eawt.ApplicationListener;
+import org.randomcoder.apple.eawt.ApplicationListener;
 
 /**
  * Peer interface for <code>Application</code>.

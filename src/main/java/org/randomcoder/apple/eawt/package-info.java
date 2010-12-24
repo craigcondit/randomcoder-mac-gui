@@ -26,4 +26,4 @@
  * POSSIBILITY OF SUCH DAMAGE.
  * </pre>
  **/
-package com.randomcoder.apple.eawt;
+package org.randomcoder.apple.eawt;
